@@ -12,7 +12,7 @@ pipeline {
 
         stage('Fetch from GitHub') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USER/cicd-webapp.git'
+                git branch: 'main', url: 'https://github.com/ranjana3005/cicd-webapp.git'
             }
         }
 
